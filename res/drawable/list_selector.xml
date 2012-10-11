@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="@android:integer/config_mediumAnimTime" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <item android:drawable="@color/transparent" android:state_window_focused="false"/>
+    <!-- Damn you, Android XML formatter! -->
+    <item android:state_pressed="true"><shape>
+            <solid android:color="#4481a8b8" />
+        </shape></item>
+
+</selector>

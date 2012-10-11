@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Libzoid</string>
+    <string name="lib_image_description">lib image</string>
+    <string name="patternAuthor">ice cubes by Skyblue2u\ncolourlovers.com</string>
+    <string name="progressContentDescription">Button that starts some useless progress</string>
+    <string name="startProgress">Compute Ultimate Question</string>
+    <string name="lib_logo">Lib logo</string>
+
+</resources>

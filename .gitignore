@@ -1,0 +1,4 @@
+bin
+.apt_generated
+gen
+.DS_Store
