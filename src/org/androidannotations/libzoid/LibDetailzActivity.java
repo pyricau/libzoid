@@ -2,6 +2,7 @@ package org.androidannotations.libzoid;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -76,7 +77,7 @@ public class LibDetailzActivity extends Activity {
 
 		});
 
-		findViewById(R.id.showButton).setOnClickListener(new OnClickListener() {
+		findViewById(R.id.libNameTextView).setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View view) {
@@ -92,6 +93,14 @@ public class LibDetailzActivity extends Activity {
 				showHidePhoto();
 			}
 
+		});
+
+		findViewById(R.id.libUrlTextView).setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				libUrlTextViewClicked();
+			}
 		});
 
 		init();
@@ -114,6 +123,12 @@ public class LibDetailzActivity extends Activity {
 		}
 	}
 
+	void libUrlTextViewClicked() {
+		Uri libUri = Uri.parse(libUrl.toString());
+		Intent urlIntent = new Intent(Intent.ACTION_VIEW, libUri);
+		startActivity(urlIntent);
+	}
+
 	void init() {
 		libNameTextView.setText(libTitle);
 		libUrlTextView.setText(libUrl);
@@ -122,7 +137,7 @@ public class LibDetailzActivity extends Activity {
 
 	void computeAnswerToUltimateQuestion() {
 
-		// I CAN HAZ GENERIC PARAMZ?
+		// AsyncTask<TOO, MUCH, PARAMS>
 		AsyncTask<Void, Integer, Void> task = new AsyncTask<Void, Integer, Void>() {
 
 			@Override
