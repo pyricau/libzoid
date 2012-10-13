@@ -4,6 +4,7 @@
     <string-array name="lib_titles">
         <item>AndroidAnnotations</item>
         <item>ActionBarSherlock</item>
+        <item>ACRA</item>
         <item>Crouton</item>
         <item>Robolectric</item>
         <item>RoboGuice</item>
@@ -12,6 +13,7 @@
     <string-array name="lib_urls">
         <item>"<![CDATA[<font color="#E8F3F8">http://</font><b>androidannotations</b><font color="#E8F3F8">.org</font>]]>"</item>
         <item>"<![CDATA[<font color="#E8F3F8">http://</font><b>actionbarsherlock</b><font color="#E8F3F8">.com]]>"</item>
+        <item>"<![CDATA[<font color="#E8F3F8">http://</font><b>code.google.com/p/acra/</b>]]>"</item>
         <item>"<![CDATA[<font color="#E8F3F8">http://</font><b>github.com/neofoniemobile/Crouton</b>]]>"</item>
         <item>"<![CDATA[<font color="#E8F3F8">http://</font><b>robolectric</b><font color="#E8F3F8">.org</font>]]>"</item>
         <item>"<![CDATA[<font color="#E8F3F8">http://</font><b>roboguice</b><font color="#E8F3F8">.org</font>]]>"</item>
@@ -20,6 +22,7 @@
     <array name="lib_image_ids">
         <item>@drawable/lib_aa</item>
         <item>@drawable/lib_abs</item>
+        <item>@drawable/lib_acra</item>
         <item>@drawable/lib_crouton</item>
         <item>@drawable/lib_robolectric</item>
         <item>@drawable/lib_roboguice</item>

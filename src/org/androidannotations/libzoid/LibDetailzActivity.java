@@ -67,7 +67,6 @@ public class LibDetailzActivity extends Activity {
 		progressBar = (ProgressBar) findViewById(R.id.progressBar);
 		libImageView = (ImageView) findViewById(R.id.libImageView);
 
-		// You listening to me?
 		startProgressButton.setOnClickListener(new OnClickListener() {
 
 			@Override
